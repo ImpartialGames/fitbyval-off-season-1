@@ -1167,7 +1167,7 @@ footer p {
   .phases-grid { grid-template-columns:1fr; }
   .why-grid { grid-template-columns:1fr; gap:16px; }
   .coach-grid { grid-template-columns:1fr; }
-  .coach-img-wrapper { aspect-ratio:16/9; }
+  .coach-img-wrapper { aspect-ratio:2/3; width:100%; max-width:400px; margin:0 auto; }
   .format-grid { grid-template-columns:1fr; }
   .testimonials-grid { grid-template-columns:1fr; }
   .confiance-carousel { padding:0 44px; }
@@ -1189,6 +1189,7 @@ footer p {
   .final-btn { padding:18px 46px; }
   .final-cta { padding:70px 0; }
   .coach-section::after { display:none; }
+  .coach-img { object-position:center center; }
   .confiance-slide { flex:0 0 calc(100% - 0px); }
   .confiance-carousel { padding:0 40px; }
   .phases-grid { grid-template-columns:1fr; }
